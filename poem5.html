@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>KEERTHANA'S ENGLISH PORTFOLIO</title>
+
+  <!-- Transparent box code -->
+  <style>
+  div.background {
+    background: url(images/surasa_and_simhika.png) repeat;
+    border: 2px solid black;
+  }
+  div.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    font-size: 25px;
+  }
+  div.transbox p {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+  }
+
+  div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #354C7C;
+    padding: 50px;
+    font-size: 25px;
+    margin-left: 25px;
+  }
+  .flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+}
+  </style>
+</head>
+
+<!-- CSS reference -->
+<link rel = "stylesheet" type="text/css"href = "style1.css"/>
+<link rel="stylesheet" href="style1.css">
+
+
+<body style="background-color: #E7E2DC;">
+    <!-- Home Icon -->
+    <a href="index.html"><img src="images\home.png" style="width:50px;height:50px;" ></img></a>
+
+
+        <p style="font-size: 25px;">One of the biggest mysteries of all time has been the Mystery of the 
+            Bermuda Triangle. Anything that flies over this natural vacuum or tries to go near it loses itself 
+            to the disastrous Devil Triangle. Many scientific  theories have tried to find the reasons behind the 
+            suspicious happenings near Bermuda Triangle but have  never found justified reasons. Science 
+            might not have been successful in uncovering the secrets of this triangle but it seems as if 
+            Hindu history has something stored in their treasure box.
+        </p><br>
+
+        <p style="font-size: 25px;">There is an interesting story in Sundara Kanda, the fifth book in Ramayana 
+          where Lord Hanuman encounters the energy above the sky of the ocean similar to the energy of the 
+          mysterious Bermuda Triangle. Sundara Kanda depicts the adventures of Lord Hanuman.
+        </p><br>
+
+        <img src="images/sundarakanda.jpg"width = 700 height = 500 class="center"></img><br>
+        <p style="font-size: 20px;" class="center"><i>
+            "Like a great boat in the ocean with opposing winds, I am being pulled back forcefully, 
+            with disabled power."
+        </i></p><br><br>
+
+        <p style="font-size: 25px;"><b>Let’s go back in time, thousands of years ago. 
+          To the time of the Ramayana. </b>
+        </p>
+
+        <div class="sticky"><h2 style="margin-left: 25px;">THE LEGEND OF SIMHIKA</h2></div>
+
+        <h3>Hover over the image below:</h3>
+        <div class="flip-card" style=" float: right;">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+            <img src="images/simhika.jpg" alt="Avatar" style="width:300px;height:300px;">
+            </div>
+            <div class="flip-card-back">
+            <p style="font-size: 50px;">
+                Lord Hanuman and Simhika
+            </p>
+            </div>
+        </div>
+        </div>
+        <p style="font-size: 25px;">
+            Demoness Simhika meditated for thousand years so that Lord Brahma could bestow her some desired powers. 
+            Contented Lord Brahma asked her about what powers she wanted. To this, she demanded a boon of 
+            attracting anything irrespective of its powers towards herself. She was also known as Chhayagrahi 
+            as she was capable of grasping objects or beings merely with their shadows. She was strong 
+            enough to swallow anything she wished to.<br><br>
+
+            Once, Lord Hanuman in search of Mata Sita was flying over the Ocean, he realized that his speed 
+            was lowered and he felt powerless due to some invisible force.<br><br>
+
+            After a few moments of analyzing he saw demoness Simhika trying to pull him towards her through 
+            his shadow. A battle was now ensured. Using his brains, Lord Hanuman decreased his size, entered 
+            the demoness' body and destroyed all her internal organs. It is believed that she fled to some 
+            mysterious place. The place where she is hiding might be the Bermuda Triangle. Familiar lines 
+            between Chhayagrahi’s boon and capability of the Bermuda Triangle to grab things could be drawn.<br><br>
+
+            We all know that the demon king Ravana had a gem in his navel which had a boon of immortality. 
+            Lord Rama killed Ravana by shooting his navel with an arrow.After his death the gem became imperative. 
+            It was necessary to place the gem at a place that would soak its endless power. 
+            Lord Hanuman was given the duty to find this place. He took the gem to the deepest core of the ocean 
+            so that its impact if not ended could be minimized. <br><br>
+            
+            It is said that both the gem and Samhita are still in the ocean. That place might be the Bermuda Triangle. 
+        </p>
+
+
+      <!-- Go to top button -->
+      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+      <script>
+         //Get the button
+         var mybutton = document.getElementById("myBtn");
+         // When the user scrolls down 20px from the top of the document, show the button
+         window.onscroll = function() {scrollFunction()};
+         
+         function scrollFunction() {
+           if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+             mybutton.style.display = "block";
+           } else {
+             mybutton.style.display = "none";
+           }
+         }
+         
+         // When the user clicks on the button, scroll to the top of the document
+         function topFunction() {
+           document.body.scrollTop = 0;
+           document.documentElement.scrollTop = 0;
+         }
+      </script>
+
+</body>
+</html>

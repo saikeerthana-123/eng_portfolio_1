@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>KEERTHANA'S ENGLISH PORTFOLIO</title>
+
+  <!-- Transparent box code -->
+  <style>
+  div.background {
+    background: url(images/y.jpg) repeat;
+    border: 2px solid black;
+  }
+  div.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    font-size: 25px;
+  }
+  div.transbox p {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+  }
+  </style>
+</head>
+
+<!-- CSS reference -->
+<link rel = "stylesheet" type="text/css"href = "style1.css"/>
+<link rel="stylesheet" href="style1.css">
+
+
+<body style="background-color: #E7E2DC;">
+    <!-- Home Icon -->
+    <a href="index.html"><img src="images\home.png" style="width:50px;height:50px;" ></img></a>
+
+    <div class="background">
+        <img src="images\dance_evolution.jpg" class="center" style="width:500px; height:500px;"></img>
+        <div class="transbox">
+            <p>Question 1.<br>
+                Do you have the passion to do something other than your studies like these two icons have?<br>
+            </p>
+            <p>
+                <u>Ans.</u> My passion is Kuchipudi dance.
+            </p>
+        </div>
+    </div>
+
+    <div class="background">
+        <div class="transbox">
+            <p>Question 2.<br>
+                Do you find any difficulty in pursuing your passion?<br>
+            </p>
+            <p>
+                <u>Ans.</u> Kuchipudi is considered one of the most difficult classical dances in India. The tricky 
+                part is to express all the Navarasas and the four Abhinayas in a way the audience can understand. 
+                Another thing that I find difficult is to show a fierce masculine moment. 
+            </p>
+        </div>
+    </div>
+
+    <div class="background">
+        <div class="transbox">
+            <p>Question 3.<br>
+                Who gives you support and encouragement to go ahead with your passion?<br>
+            </p>
+            <p>
+                <u>Ans.</u> It's my parents and my teacher who support and encourage me to go ahead with my passion.            
+            </p>
+        </div>
+    </div>
+
+      <!-- Go to top button -->
+      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+      <script>
+         //Get the button
+         var mybutton = document.getElementById("myBtn");
+         // When the user scrolls down 20px from the top of the document, show the button
+         window.onscroll = function() {scrollFunction()};
+         
+         function scrollFunction() {
+           if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+             mybutton.style.display = "block";
+           } else {
+             mybutton.style.display = "none";
+           }
+         }
+         
+         // When the user clicks on the button, scroll to the top of the document
+         function topFunction() {
+           document.body.scrollTop = 0;
+           document.documentElement.scrollTop = 0;
+         }
+      </script>
+
+</body>
+</html>
